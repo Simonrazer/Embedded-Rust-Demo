@@ -8,6 +8,10 @@ Rust installieren: https://www.rust-lang.org/learn/get-started
 
 Die Flash-Utility installieren:
 `cargo install cargo-flash`
+`cargo install probe-run`
+
+Den Linker installieren:
+`cargo install flip-link`
 
 Den Code Compilieren und auf das über USB verbundene Board flashen. Im Code-Verzeichniss:
 `cargo run --release`
