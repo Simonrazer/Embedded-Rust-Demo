@@ -13,6 +13,9 @@ Die Flash-Utility installieren:
 Den Linker installieren:
 `cargo install flip-link`
 
+(Windows: STM USB Treiber installieren: https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-utilities/stsw-link009.html )
+
+
 Den Code Compilieren und auf das über USB verbundene Board flashen. Im Code-Verzeichniss:
 `cargo run --release`
 
